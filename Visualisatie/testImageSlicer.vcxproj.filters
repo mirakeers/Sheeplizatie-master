@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Particle.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ParticleController.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxMatrix3x3.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxPoint2f.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxPoint3f.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxPoint4f.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVec2f.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVec3f.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVec4f.cpp">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxVectorMath">
+			<UniqueIdentifier>{B884153E-0693-5DE4-AB7E-9855}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxVectorMath\src">
+			<UniqueIdentifier>{73E61D1E-1B6D-12AF-C9ED-39CC}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Particle.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ParticleController.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Style.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxMatrix3x3.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxPoint2f.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxPoint3f.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxPoint4f.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVec2f.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVec3f.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVec4f.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\VP &amp; IT\of_v0.9.8_vs_release\addons\ofxVectorMath\src\ofxVectorMath.h">
+			<Filter>addons\ofxVectorMath\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

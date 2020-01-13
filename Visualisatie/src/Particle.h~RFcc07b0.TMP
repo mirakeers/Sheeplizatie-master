@@ -1,0 +1,44 @@
+#pragma once
+
+#include "ofMain.h"
+#include "ofxVec2f.h"
+
+class ParticleProperties {
+public:
+	enum Mode { simpleParticles, boids, imageParts };
+	Mode currentMode = simpleParticles;
+};
+
+
+class Particle {
+	ofxVec2f location;
+	ofVec3f rotation;
+
+	ofxVec2f velocity;
+	ofxVec2f acceleration;
+
+	ofxVec2f target;
+	float maxspeed;
+	float maxforce;
+	float gravitytarget;
+	float frictiontarget;
+
+
+	ofImage* img;
+	float imgScale;
+	float tileSize;
+	ofVec2f relTargetPos; //The position, relative to the center of the image, where the particle will be targeted to
+
+	const int indexX;
+	const int indexY;
+
+	const ParticleProperties* pp;
+
+	public:
+		Particle(const int ix, const int iy, ParticleProperties* pP) : indexX(ix), indexY(iy), pp(pP) {};
+		void setup(ofxVec2f initLocation, ofxVec2f initTarget, ofVec3f initRotation, float initMaxspeed, float initMaxforce, float initGravitytarget, float initFrictiontarget, ofImage* initImg, float initImgScale, float initTileSize);
+		void update(); 
+		void draw();
+		void seek(ofxVec2f target);
+		void applyforce(ofxVec2f force);
+};
